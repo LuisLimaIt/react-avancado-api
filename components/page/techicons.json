@@ -2,7 +2,8 @@
   "collectionName": "components_page_techicons",
   "info": {
     "name": "techicons",
-    "icon": "tools"
+    "icon": "tools",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,12 +14,12 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }

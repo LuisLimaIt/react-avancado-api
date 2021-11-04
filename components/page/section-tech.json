@@ -15,7 +15,7 @@
       "type": "component",
       "repeatable": true,
       "component": "page.techicons",
-      "required": true,
+      "required": false,
       "max": 10,
       "min": 5
     }
