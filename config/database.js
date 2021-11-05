@@ -12,7 +12,9 @@ module.exports = ({ env }) => ({
         password: env('DATABASE_PASSWORD', 'Hope2020*'),
         ssl: env.bool('DATABASE_SSL', false),
       },
-      options: {}
+      options: {
+        ssl: true,
+      }
     },
   },
 });
