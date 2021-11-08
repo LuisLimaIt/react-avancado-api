@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  netlifywebhook: env('NETLIFY_WEBHOOK')
-})
+  netlifyWebhook: env("NETLIFY_WEBHOOK"),
+});
